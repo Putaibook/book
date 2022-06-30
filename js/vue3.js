@@ -72,7 +72,7 @@ const app = {
         let result = `${exam.extra_purchase3_grade}年級${elem}月考模擬試題 ${exam.extra_purchase3_num}本`;
         let newobj = {
           result: result,
-          name: elem,
+          name: `${elem}${exam.extra_purchase3_grade}年級月考模擬試題`,
           grade: exam.extra_purchase3_grade,
           publish:"弘基",
           num: exam.extra_purchase3_num,
@@ -162,7 +162,7 @@ const app = {
           }
         }
       }
-      const url = "https://script.google.com/macros/s/AKfycbwRWXL_oeUFvzYuGYp-QugTDjf1Su95RECjN7K7ARLBtdg0l-gPP_HPcJGyRgRC3ZsApw/exec";
+      const url = "https://script.google.com/macros/s/AKfycbwbfpPl8Na8gLIph72CzCjLFqwRyDQ_5bfDDkpmZDTXz3LnKNKvyi8j3xAXmweO9jETqw/exec";
       const send_data =  {
       name : custom.custom_name,
       phone : custom.custom_phone,
