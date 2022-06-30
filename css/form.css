@@ -37,6 +37,13 @@ fieldset{
   left: 20%;
   font-size: 1rem;
 }
+.mark{
+  font-size: 1.25rem;
+  font-weight: 800;
+  color:red;
+  opacity: 0.86;
+  background-color: inherit;
+}
 legend{
   float: none;
   padding: inherit;
@@ -349,6 +356,9 @@ input:invalid  {
   }
   #big-accordion{
     min-width: 95%;
+  }
+  .marl{
+    font-size: 1rem;
   }
   .td-bookname{
     letter-spacing: 1px;
