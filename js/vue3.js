@@ -162,7 +162,7 @@ const app = {
           }
         }
       }
-      const url = "https://script.google.com/macros/s/AKfycbwbfpPl8Na8gLIph72CzCjLFqwRyDQ_5bfDDkpmZDTXz3LnKNKvyi8j3xAXmweO9jETqw/exec";
+      const url = "https://script.google.com/macros/s/AKfycbyhH1bor3DEZuzdsL91eltKig2DxXUUl8U0kc1maZJ7Khs_tIdYi6mbk9Wf8Sxobi1c8A/exec";
       const send_data =  {
       name : custom.custom_name,
       phone : custom.custom_phone,
